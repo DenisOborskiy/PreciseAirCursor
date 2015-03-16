@@ -41,14 +41,14 @@
             // 
             this.videoPictureBox.Location = new System.Drawing.Point(14, 12);
             this.videoPictureBox.Name = "videoPictureBox";
-            this.videoPictureBox.Size = new System.Drawing.Size(160, 120);
+            this.videoPictureBox.Size = new System.Drawing.Size(352, 250);
             this.videoPictureBox.TabIndex = 9;
             this.videoPictureBox.TabStop = false;
             // 
             // glyphPictureBox
             // 
             this.glyphPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("glyphPictureBox.Image")));
-            this.glyphPictureBox.Location = new System.Drawing.Point(247, 12);
+            this.glyphPictureBox.Location = new System.Drawing.Point(436, 12);
             this.glyphPictureBox.Name = "glyphPictureBox";
             this.glyphPictureBox.Size = new System.Drawing.Size(250, 250);
             this.glyphPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -59,7 +59,7 @@
             // 
             this.framesPerSecondLabel.AutoSize = true;
             this.framesPerSecondLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.framesPerSecondLabel.Location = new System.Drawing.Point(158, 145);
+            this.framesPerSecondLabel.Location = new System.Drawing.Point(158, 274);
             this.framesPerSecondLabel.Name = "framesPerSecondLabel";
             this.framesPerSecondLabel.Size = new System.Drawing.Size(16, 16);
             this.framesPerSecondLabel.TabIndex = 11;
@@ -69,7 +69,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 145);
+            this.label1.Location = new System.Drawing.Point(12, 274);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(142, 16);
             this.label1.TabIndex = 12;
@@ -80,7 +80,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(509, 327);
+            this.ClientSize = new System.Drawing.Size(874, 379);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.framesPerSecondLabel);
             this.Controls.Add(this.glyphPictureBox);

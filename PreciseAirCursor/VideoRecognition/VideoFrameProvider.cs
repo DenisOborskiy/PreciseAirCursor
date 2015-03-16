@@ -64,12 +64,14 @@ namespace PreciseAirCursor.VideoRecognition
             {
             VideoCapabilities lowestAcceptableResolutionCapability = null;
 
-            const int MIN_SQUARE_SIZE_PX = 120;
+            int MIN_SQUARE_SIZE_PX = 640;
+            MIN_SQUARE_SIZE_PX = 352;
+
             var lowestResolution = new Size(int.MaxValue, int.MaxValue);
             for (int capabilityIndex = 0; capabilityIndex < videoCapabilities.Length; capabilityIndex++)
                 {
                 Size size = videoCapabilities[capabilityIndex].FrameSize;
-                if (size.Width < MIN_SQUARE_SIZE_PX || size.Height < MIN_SQUARE_SIZE_PX) continue;
+                if (size.Width < MIN_SQUARE_SIZE_PX) continue;
 
                 if (lowestResolution.Width > size.Width || lowestResolution.Height > size.Height)
                     {
@@ -106,7 +108,7 @@ namespace PreciseAirCursor.VideoRecognition
                 }
 
             framesCount++;
-            if (framesCount > 100)
+            if (framesCount > 500)
                 {
                 framesCount = 1;
                 System.GC.Collect();

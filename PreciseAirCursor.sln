@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreciseAirCursor", "PreciseAirCursor\PreciseAirCursor.csproj", "{30F1BB53-5F2B-4B1B-B477-FE0883542D50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForge.Helpers", "AForge.Helpers\AForge.Helpers.csproj", "{74E05DE3-835C-41D5-BEEE-F7B489018650}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{30F1BB53-5F2B-4B1B-B477-FE0883542D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F1BB53-5F2B-4B1B-B477-FE0883542D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F1BB53-5F2B-4B1B-B477-FE0883542D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E05DE3-835C-41D5-BEEE-F7B489018650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E05DE3-835C-41D5-BEEE-F7B489018650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E05DE3-835C-41D5-BEEE-F7B489018650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E05DE3-835C-41D5-BEEE-F7B489018650}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
